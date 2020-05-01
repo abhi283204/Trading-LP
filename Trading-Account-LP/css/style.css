@@ -1,0 +1,558 @@
+
+/*********************default CSS Start******************************/
+/**************************************** Font Section Starts ************************************************/
+ 
+
+@font-face { 
+font-family:"Lato_Black";
+src:url("../Fonts/Lato_Black/Lato-Black.eot?") format('embedded-opentype'),
+url("../Fonts/Lato_Black/Lato-Black.woff") format("woff"),
+url("../Fonts/Lato_Black/Lato-Black.ttf") format("truetype"),
+url("../Fonts/Lato_Black/Lato-Black.svg#Lato-Black") format("svg");
+font-weight:normal;
+font-style:normal;
+}
+
+
+
+body{  position:relative; overflow-x: hidden;}
+h1{color:#ffffff; font-family: 'Lato', sans-serif, sans-serif; margin:0px; padding:0px; font-size:30px; font-weight:100; line-height:45px;}
+h2,h3,h4{font-family: 'Lato', sans-serif; margin:0px; padding:0px; color:#000000; }
+h2 strong, p strong{font-family:"Lato_Black";}
+ 
+h3{font-size:26px; color:#ffffff; text-transform:uppercase;}
+p{font-family: 'Roboto', sans-serif; font-size:16px; color:#001a30;}
+h2{font-size:32px;}
+h2,h3{  padding-left:16px;}
+h2 span{  padding-left:16px;}
+
+p{font-family: 'Lato', sans-serif; font-size:16px; color:#212121;}
+ 
+.m0{margin:0px !important;}
+
+/*********************default CSS End******************************/
+
+
+
+
+
+/*********************Header CSS Start******************************/
+
+.header{background:url(images/banner.jpg) center center no-repeat; width:100%; position:relative;  background-size:cover; box-sizing:border-box;}
+
+.banner-text{position:absolute; top:97px; width:68%; left:-9px;}
+.lead-logo{position:absolute; top:30px; left:50px; z-index:100;}
+.lead-logo img{width:60%;}
+
+.banner-text h1 span.capt{font-weight:700;}
+
+.banner-text .intro-text {position:absolute; top:0px; left:40px; width:100%; text-align:left;}
+ 
+.header .banner-text {
+	text-align: center;
+	color: #ffffff;
+    background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover
+}
+ 
+
+
+.account-input{color:#ffffff;font-size:30px; line-height:60px; font-weight:bold; font-family: 'FuturaBT-BoldCondensed', sans-serif;  text-transform:uppercase; padding-top:35px; }
+.account-input .input-group{width:100%;} 
+.account-input .smsNo{font-size:25px;}
+
+.form-group{position:relative;}
+.input-group{margin-bottom:30px;}
+.form-control{background-color:transparent; color:#ffffff !important; border-radius:0px;  border:1px solid #ffffff; margin-right:30px;}
+.form-control::placeholder{color:#ffffff !important;}
+.form-control:focus{background-color:#74bf47; border-color:#fdf200; box-shadow:none;}
+.otp{color:#fdf200; font-size:12px; font-family: 'Lato', sans-serif; letter-spacing:1px; text-transform:capitalize;display:block; line-height:20px; position:absolute; bottom:0px; left:186px;}
+.otp:hover{text-decoration:none; color:#fdf200;}
+.accountOpenBtn {
+    background: #fbee00;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+	font-size:18px;
+	text-transform:uppercase;
+	padding:10px 20px;
+	border-radius:0px;
+	box-shadow: 0px 0px 6px 1px #5f7a00;
+	margin-top:20px;
+}
+
+
+/*************Intro Section CSS Start************************/
+.first-section{padding:60px 0px;}
+.first-section h2{font-size:32px; line-height:40px;}
+
+
+
+/************************ Demate Account Open steps Section ************************/ 
+ 
+.trading-account{background:#ececec; padding:80px 0px;}
+.trading-account h2{font-size:32px; display:inline-block; margin-top:-9px; padding:0px; vertical-align:middle; margin-bottom:40px;}
+.demate-account .normal-heading{font-weight:400; font-size:35px; font-family:Myriad Pro;}
+ 
+ .subHead{font-size:22px;  font-family: 'Lato', sans-serif;}
+ .steptxt p{font-size:16px;  font-family: 'Lato', sans-serif;}
+ .steptxt { width:30%; margin-right:5%;}
+ .step1{background:url(../images/one.png) left center no-repeat; width:86%; text-align:left; padding:30px 0px; font-weight:bold;}
+ .step1 p{width:73%; float:right;}
+ .step2{background:url(../images/two.png) left center no-repeat; width:75%; text-align:left; padding:30px 0px; font-weight:bold;}
+ .step2 p{width:65%; float:right;}
+ .step3{background:url(../images/three.png) left center no-repeat; width:90%; text-align:left; padding:30px 0px; font-weight:bold;}
+ .step3 p{width:72%; float:right;}
+ .docs{display:flex; align-items:center;  width:50%; }
+ .docs img{width:80%;}
+ 
+ .tabview.docs{display:none;}
+ 
+
+
+/************************ Why open trading account Section ************************/ 
+
+.OpenTradeAccount{padding:80px 0px;  }
+.OpenTradeAccount h2{ padding-bottom:60px;}
+.OpenTradeAccount .break{display:block; }
+.OpenTradeAccount .stepbox{padding-bottom:60px;}
+.OpenTradeAccount p{font-size:18px; font-family: 'Lato', sans-serif; padding-top:20px;}
+.flex-prop{justify-content: center;
+ 
+    flex-flow: column;
+    align-items: center;}
+	
+.relshp{padding-top:30px;}
+
+
+
+/************************ Trading Experience Tools Section ************************/ 
+
+.tradingTools{background:#f2f5f9; padding:60px 0px;}
+.tradingTools h2{padding-bottom:60px;}
+ 
+.toolBox{background:#b4d9a0; border-radius:0px 20px 0px 20px; text-align:center; box-shadow: 0px 0px 6px -2px #000000; }
+.toolBox h3{color:#005a2d; font-size:22px; text-transform:uppercase; display:inline-block; line-height:30px; padding:25px 0px; }
+.toolBox p{padding:30px 55px;   font-family: 'Lato', sans-serif; color:#000000; font-size:18px;}
+   
+   
+/******************************Award Section css********************************************/
+
+.award-section{padding:50px 0px;}
+.award-sec{padding-top:50px;}
+.award-sec img {
+    width: 262px;
+    height: 142px;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+
+.faq-intro{margin-top:20px;}
+ 
+ 
+
+/******************************Upper Footer Section css********************************************/
+.upperFooter-section{background:url(../images/green-footbg.jpg) center center no-repeat; padding-top:60px;}
+.bo1{border-left:1px solid #000000; border-right:1px solid #000000;}
+
+
+.desktop-view{display:block;}
+.mob-view{display:none;}
+
+
+ 
+/******************************Media Queries css********************************************/
+ 
+ /*** Medium devices (tablets, 1024px and up) ***/
+@media (min-width: 980px) and (max-width: 1024px) {
+.lead-logo img{width:60%;}
+h1{font-size:25px; line-height:40px;}
+.header{background-size:contain; height:414px;}	
+.banner-text{top:80px; }
+.account-input{padding-top:20px;}
+ .form-group .input-group{margin-bottom:20px;}
+ .form-group .input-group:nth-child(2){margin-bottom:0px !important;}
+  .form-group .input-group:nth-last-child(2){margin-top:20px !important;}
+.accountOpenBtn{padding:8px 15px; font-size:16px; margin-top:0px;}
+.otp{left:131px;}
+
+.award-sec img{width:95%; height:130px;}
+.first-section h2{font-size:26px;}
+.trading-account h2{font-size:26px;}
+.step1 p{width:70%;}
+.step2{width:86%;}
+.step2 p{width:65%;}
+.step3{width:100%;}
+.step3 p{width:72%;}
+.OpenTradeAccount .stepbox{padding-bottom:30px;}
+.toolBox p{padding:30px;}
+ }
+ 
+ 
+/*** Medium devices (tablets, 768px and up) ***/
+@media (min-width: 768px) and (max-width: 979px) {
+h2{font-size:25px;}
+.lead-logo img{width:50%;}
+.lead-logo{top:10px;}
+.banner-text{top:60px;}
+.banner-text .intro-text{width:80%; top:-8px;}
+h1{font-size:19px; line-height:28px;}
+.header{background-size:contain; height:304px;}	
+.banner-text .intro-text{}
+.account-input{padding-top:10px;}
+.form-group .input-group{margin-bottom:14px;}
+.otp{position:absolute; bottom:-10px; left:110px;}
+.accountOpenBtn{bottom:-40px;left:0px; font-size:13px;padding:7px 10px; position:absolute;}
+.form-group .input-group:nth-child(2){margin-bottom:0px !important;}
+.form-group .input-group:nth-last-child(2){margin-top:20px !important;}
+.otp{left:94px; bottom:0px; position:absolute;}
+
+.steptxt{width:100%; }
+.docs{display:flex; justify-content:center; align-items:center;}
+.step1 p, .step2 p, .step3 p{width:100%; float:none; display:flex; justify-content:center;}
+.step1, .step2, .step3{background-position:center center; margin-top:20px;}
+.steptxt{margin-bottom:50px;}
+.docs img{width:50%;}
+
+.tradeAcc{display:flex; justify-content:center; margin-bottom:20px;}
+.tradeAcc img{width:50%;}
+.tradeAcc1{display:flex; justify-content:center; flex-flow:column; align-items:center; margin:30px 0px;}
+.OpenTradeAccount{padding-bottom:40px;}
+.OpenTradeAccount .stepbox{padding-bottom:0px;}
+.OpenTradeAccount .break{display:inline-block;}
+.toolBox h3{display:block;}
+.tradingTools1{display:flex; justify-content:center;}
+.toolBox{width:50%; margin-bottom:40px;}
+.cert{margin-bottom:50px;}
+
+.upperFooter-section img{width:95%;}
+}
+
+ 
+/*** Medium devices (tablets, 768px and up) ***/
+@media (min-width: 580px) and (max-width: 767px) {
+
+
+h2{font-size:20px;}
+.lead-logo img{width:50%;}
+.lead-logo{top:10px; left:23px;}
+.banner-text{top:60px; left:-29px; width:100%;}
+.intro-heading{display:none;}
+.banner-text .intro-text{width:100%; top:-8px;}
+ 
+.header{background-size:contain;}	
+ 
+.account-input{padding-top:10px;}
+.form-group .input-group{margin-bottom:20px; }
+.input-group input{font-size:14px;}
+.form-control{height:40px;}
+.otp{position:absolute; bottom:-10px; left:110px;}
+.accountOpenBtn{bottom:-50px;left:143px; font-size:11px;padding:7px 10px; position:absolute;}
+.form-group .input-group:nth-child(2){margin-bottom:0px !important;}
+.form-group .input-group:nth-last-child(2){margin-top:20px !important;}
+.otp{left:191px; bottom:0px; position:absolute;}
+
+.first-section h2{font-size:28px;line-height:35px;}
+p{font-size:14px; }
+.trading-account h2{font-size:24px; margin-bottom:30px;}
+
+.steptxt{width:100%; }
+.docs{display:flex; justify-content:center; align-items:center;}
+.step1 p, .step2 p, .step3 p{width:100%; float:none; display:flex; justify-content:center;}
+.step1, .step2, .step3{background-position:center center; margin-top:20px; width:70%; text-align:center;}
+.steptxt{margin-bottom:25px;}
+.docs img{width:50%;}
+.trading-account{padding:80px 0 40px 0px;}
+
+.tradeAcc{display:flex; justify-content:center; margin-bottom:20px;}
+.tradeAcc img{width:50%;}
+.tradeAcc1{display:flex; justify-content:center; flex-flow:column; align-items:center; margin:30px 0px;}
+.OpenTradeAccount{padding-bottom:40px;}
+.OpenTradeAccount .stepbox{padding-bottom:0px;}
+.OpenTradeAccount .break{display:inline-block;}
+.toolBox h3{display:block;}
+.tradingTools1{display:flex; justify-content:center;}
+.toolBox{width:100%; margin-bottom:40px;}
+.cert{margin-bottom:50px;}
+
+.faq-intro{padding-top:20px;}
+
+.upperFooter-section img{width:35%;}
+.desktop-view{display:none;}
+.mob-view{display:block;}
+
+.upft{text-align:center; padding-left:0px; border:none;}
+.upft.ft{margin-left:-24px;}
+.bo1{border:none;}
+
+.socialIcon {
+    width: 100% !important;
+    margin-top: 15px !important;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.footlogo{    display: flex;
+    justify-content: center;}
+
+
+
+}
+ 
+ 
+/*** Medium devices (tablets, 768px and up) ***/
+@media (min-width: 480px) and (max-width: 579px) {
+
+
+
+
+h2{font-size:20px;}
+.lead-logo img{width:40%;}
+.lead-logo{top:10px; left:23px;}
+.banner-text{top:48px; left:-29px; width:100%;}
+.intro-heading{display:none;}
+.banner-text .intro-text{width:100%; top:-8px;}
+ 
+.header{background-size:contain;}	
+ 
+.account-input{padding-top:10px;}
+.form-group .input-group{margin-bottom:14px; }
+.input-group input{font-size:14px;}
+.form-control{height:35px;}
+.otp{position:absolute; bottom:-10px; left:110px;}
+.accountOpenBtn{bottom:-25px;left:0px; font-size:11px;padding:7px 10px; position:absolute;}
+.form-group .input-group:nth-child(2){margin-bottom:0px !important;}
+.form-group .input-group:nth-last-child(2){margin-top:20px !important;}
+.otp{left:126px; bottom:0px; position:absolute;}
+
+.first-section h2{font-size:28px;line-height:35px;}
+p{font-size:14px; }
+.trading-account h2{font-size:24px; margin-bottom:30px;}
+
+.steptxt{width:100%; }
+.docs{display:flex; justify-content:center; align-items:center;}
+.step1 p, .step2 p, .step3 p{width:100%; float:none; display:flex; justify-content:center;}
+.step1, .step2, .step3{background-position:center center; margin-top:20px; width:70%; text-align:center;}
+.steptxt{margin-bottom:25px;}
+.docs img{width:50%;}
+.trading-account{padding:80px 0 40px 0px;}
+
+.tradeAcc{display:flex; justify-content:center; margin-bottom:20px;}
+.tradeAcc img{width:50%;}
+.tradeAcc1{display:flex; justify-content:center; flex-flow:column; align-items:center; margin:30px 0px;}
+.OpenTradeAccount{padding-bottom:40px;}
+.OpenTradeAccount .stepbox{padding-bottom:0px;}
+.OpenTradeAccount .break{display:inline-block;}
+.toolBox h3{display:block;}
+.tradingTools1{display:flex; justify-content:center;}
+.toolBox{width:100%; margin-bottom:40px;}
+.cert{margin-bottom:50px;}
+
+.faq-intro{padding-top:20px;}
+
+.upperFooter-section img{width:42%;}
+.desktop-view{display:none;}
+.mob-view{display:block;}
+
+.upft{text-align:center; padding-left:0px; border:none;}
+.upft.ft{margin-left:-24px;}
+.bo1{border:none;}
+
+.socialIcon {
+    width: 100% !important;
+    margin-top: 15px !important;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.footlogo{    display: flex;
+    justify-content: center;}
+
+} 
+ 
+ 
+ 
+ 
+ 
+ /*** Medium devices (tablets, 768px and up) ***/
+@media (min-width: 320px) and (max-width: 479px) {
+
+.mob-view img{height:200px;}
+
+h2{font-size:20px;}
+.lead-logo img{width:40%;}
+.lead-logo{top:10px; left:23px;}
+.banner-text{top:48px; left:-29px; width:100%;}
+.intro-heading{display:none;}
+.banner-text .intro-text{width:100%; top:-8px;}
+ 
+.header{background-size:contain;}	
+ 
+.account-input{padding-top:10px;}
+.form-group .input-group{margin-bottom:14px; }
+.input-group input{font-size:14px;}
+.form-control{height:35px;}
+.otp{position:absolute; bottom:-10px; left:110px;}
+.accountOpenBtn{bottom:-25px;left:0px; font-size:11px;padding:7px 10px; position:absolute;}
+.form-group .input-group:nth-child(2){margin-bottom:0px !important;}
+.form-group .input-group:nth-last-child(2){margin-top:20px !important;}
+.otp{left:126px; bottom:0px; position:absolute;}
+
+.first-section h2{font-size:28px;line-height:35px;}
+p{font-size:14px; }
+.trading-account h2{font-size:24px; margin-bottom:30px;}
+
+.steptxt{width:100%; }
+.docs{display:flex; justify-content:center; align-items:center;}
+.step1 p, .step2 p, .step3 p{width:100%; float:none; display:flex; justify-content:center;}
+.step1, .step2, .step3{background-position:center center; margin-top:20px; width:70%; text-align:center;}
+.steptxt{margin-bottom:25px;}
+.docs img{width:50%;}
+.trading-account{padding:80px 0 40px 0px;}
+
+.tradeAcc{display:flex; justify-content:center; margin-bottom:20px;}
+.tradeAcc img{width:50%;}
+.tradeAcc1{display:flex; justify-content:center; flex-flow:column; align-items:center; margin:30px 0px;}
+.OpenTradeAccount{padding-bottom:40px;}
+.OpenTradeAccount .stepbox{padding-bottom:0px;}
+.OpenTradeAccount .break{display:inline-block;}
+.toolBox h3{display:block;}
+.tradingTools1{display:flex; justify-content:center;}
+.toolBox{width:100%; margin-bottom:40px;}
+.cert{margin-bottom:50px;}
+
+.faq-intro{padding-top:20px;}
+
+.upperFooter-section img{width:50%;}
+.desktop-view{display:none;}
+.mob-view{display:block;}
+
+.upft{text-align:center; padding-left:0px; border:none;}
+.upft.ft{margin-left:-21px;}
+.bo1{border:none;}
+
+.socialIcon {
+    width: 100% !important;
+    margin-top: 15px !important;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.footlogo{    display: flex;
+    justify-content: center;}
+
+
+}
+
+ 
+
+ /******** Footer Section Starts********/
+#footer{
+	background-color: #31333a;
+	padding: 60px 0 50px 0;
+}
+#footer p{
+	font-size: 12px;
+	font-weight: 400;
+	color: #ffffff;
+	padding: 0 0 0px 0;
+	line-height:18px !important;
+}
+
+.socialIcon{margin:0 auto;width:auto;}
+
+.socialIcon ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.socialIcon ul li{
+	display: inline;
+	padding-left: 10px;
+}
+.socialIcon ul li a{
+ 
+	border-radius: 100px;
+	width: 47px;
+	height: 47px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+}
+.facebook{
+	color: #3c5a9a;
+	font-size:25px;
+}
+
+.twitter i{color: #2daae2; font-size:25px;}
+
+.facebook i, .twitter i{ margin:0;}
+
+.facebook:hover{
+	background-color: #3c5a9a;
+	color: #ffffff;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.twitter{
+	color: #ffffff;
+	background-color: #2daae2;
+}
+.twitter:hover{
+		color: #ffffff;
+	background-color: #2daae2;
+	color: #ffffff;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.googleplus{
+	color: #dc4c41;
+}
+.googleplus:hover{
+	background-color: #dc4c41;
+	color: #ffffff;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+/* Bottom To Top Button */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: darkslategrey;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+}
+#myBtn:hover {
+  background-color: grey;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+/******** Footer Section Ends********/
+
+  
